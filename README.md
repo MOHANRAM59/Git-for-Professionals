@@ -1,15 +1,15 @@
 # Git-for-Professionals
-  GIT:
+        GIT:
 			1) Git is an open-source distributed version control system. 
-	    2) It is designed to handle minor to major projects with high speed and efficiency. 
+	                2) It is designed to handle minor to major projects with high speed and efficiency. 
 			3) It is developed to co-ordinate the work among the developers.
 	
 	Features of Git:
 			*Fully distributed VCS
-  		*Data Integrity And Security
-  		*Supports Non-linear Development
-  		*Branching
-  		*Lightweight and Fast
+  		        *Data Integrity And Security
+  		        *Supports Non-linear Development
+  		        *Branching
+  		        *Lightweight and Fast
 																																				
 	The Perfect Commit:
 			1) A more precise commit that’s focused on a single topic.
@@ -25,7 +25,7 @@
 	
 	Perfect Commit Message:
 			1)It should be understandable even by seeing only the header of the message.
-      2)It should be just enough, and not too detailed.
+                        2)It should be just enough, and not too detailed.
 			3)It should be unambiguous.
 
  	Branching Strategies:
@@ -48,9 +48,9 @@
 			2)Often they mirror stages in your dev life cycle.
 			3)They also called Integration Branches.
 	      
-  b)Short lived branch :
+        b)Short lived branch :
 	 		1)for new feature, bug fixes, refractories , experiments
-      2)Will be deleted after integration ( merge/rebase).
+                        2)Will be deleted after integration ( merge/rebase).
 			 
 	Examples for branching strategies:
 			1)Github flow.
@@ -58,16 +58,16 @@
 		
 	1)Git hub flow:
 			very simple, lean
-      Has only 1 long- run branch( main )+ feature branches
-  2)GitFlow:
+                        Has only 1 long- run branch( main )+ feature branches
+        2)GitFlow:
 			more structures, more rules
-      Long-running:"main"+ develop
-      Short-lived: features, releases,hotfixes
+        Long-running:"main"+ develop
+        Short-lived: features, releases,hotfixes
 	main branch is a reflection of the current production state.
 	the other long running branch is typically called develop.in branches
 	
 	Pull Requests:
-	    1)helps in comminucating about code and rewiewing it with pull requests 
+	                1)helps in comminucating about code and rewiewing it with pull requests 
 			2)can invite other users to review your work and give feedback
 	Fork:																																		
 			1)Apersonal copy of a git repository.
@@ -86,7 +86,7 @@
 			2)Integrating branches about getting new code back into existing branch.
 			The different ways to do this are merge and rebase.
 			                       
-														 MERGE.                              Vs.                    REBASE
+	MERGE.                              Vs.                    REBASE
 
    1. Merge lets you merge different branches.                    Rebase allows to integrate the changes from one branch to another.
    2. Shows complete history of commit merging .                  Rebase logs are Linear
